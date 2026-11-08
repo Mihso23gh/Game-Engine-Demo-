@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dfe95552dc82d764fb66425cb522c500
+timeCreated: 1463827899
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63205
+  packageName: PB Sword & Shield Inn
+  packageVersion: 2.4
+  assetPath: Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/Sword&ShieldInn/Documentation/PB
+    Sword & Shield Inn user guide.txt
+  uploadId: 776884

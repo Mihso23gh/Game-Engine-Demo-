@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aed776b634acb5e4889cfb623a6e30fd
+timeCreated: 1463603506
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63205
+  packageName: PB Sword & Shield Inn
+  packageVersion: 2.4
+  assetPath: Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/Sword&ShieldInn/BLUEPRINTS/SwordShieldInn.prefab
+  uploadId: 776884
