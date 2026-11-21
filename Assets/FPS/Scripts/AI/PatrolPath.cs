@@ -48,7 +48,8 @@ namespace Unity.FPS.AI
                 int nextIndex = i + 1;
                 if (nextIndex >= PathNodes.Count)
                 {
-                    nextIndex -= PathNodes.Count;
+                    GameWinLoseManager.LoseGame();
+                    //nextIndex -= PathNodes.Count;
                 }
 
                 Gizmos.DrawLine(PathNodes[i].position, PathNodes[nextIndex].position);
