@@ -158,7 +158,6 @@ MonoBehaviour:
     m_RotationOrder: 4
   allowedEnemies:
   - {fileID: 11400000, guid: 29cadc05f698205489ff8fb4728b9f79, type: 2}
-  - {fileID: 11400000, guid: e53baf8392570e6439e703034433f92a, type: 2}
   endEarlyWhenSpawnQueueEmpty: 1
   budgetMultiplier: 1
   durationMultiplier: 1

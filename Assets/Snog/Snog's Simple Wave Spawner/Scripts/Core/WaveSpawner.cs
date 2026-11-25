@@ -6,6 +6,7 @@ using UnityEngine.AI;
 using UnityEngine.Events;
 
 using Snog.SimpleWaveSystem.Data;
+using Unity.FPS.AI;
 
 namespace Snog.SimpleWaveSystem.Core
 {
@@ -361,6 +362,7 @@ namespace Snog.SimpleWaveSystem.Core
             else
             {
                 enemy = Instantiate(prefab, position, rotation);
+                PatrolPath.AssignEnemyToPath(enemy.GetComponent<EnemyController>());
             }
 
             if (enemy != null)

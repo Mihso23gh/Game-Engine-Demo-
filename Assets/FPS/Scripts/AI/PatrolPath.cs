@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Unity.VectorGraphics;
 using UnityEngine;
 
 namespace Unity.FPS.AI
@@ -17,6 +18,11 @@ namespace Unity.FPS.AI
             {
                 enemy.PatrolPath = this;
             }
+        }
+
+        public static void AssignEnemyToPath(EnemyController enemy)
+        {
+            enemy.PatrolPath = GameObject.FindWithTag("PatrolPath").GetComponent<PatrolPath>(); 
         }
 
         public float GetDistanceToNode(Vector3 origin, int destinationNodeIndex)
@@ -48,8 +54,7 @@ namespace Unity.FPS.AI
                 int nextIndex = i + 1;
                 if (nextIndex >= PathNodes.Count)
                 {
-                    GameWinLoseManager.LoseGame();
-                    //nextIndex -= PathNodes.Count;
+                    nextIndex -= PathNodes.Count;
                 }
 
                 Gizmos.DrawLine(PathNodes[i].position, PathNodes[nextIndex].position);

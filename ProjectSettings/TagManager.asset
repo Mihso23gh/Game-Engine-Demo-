@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - LoseScene
+  - PatrolPath
   layers:
   - Default
   - TransparentFX

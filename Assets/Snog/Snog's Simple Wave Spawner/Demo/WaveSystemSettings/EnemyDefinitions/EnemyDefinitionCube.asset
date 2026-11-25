@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744b84d21f2ff1b46bec5d839395ae3a, type: 3}
   m_Name: EnemyDefinitionCube
   m_EditorClassIdentifier: 
-  prefab: {fileID: 8938278021274387181, guid: ccfc887765dc0fb42a1c3017b77b4fca, type: 3}
+  prefab: {fileID: 2015434656898269652, guid: 25a1b0efadb966e44889fce712c8ff8d, type: 3}
   cost: 2
   weight: 1
   minWave: 1
-  maxWave: 999
+  maxWave: 10
