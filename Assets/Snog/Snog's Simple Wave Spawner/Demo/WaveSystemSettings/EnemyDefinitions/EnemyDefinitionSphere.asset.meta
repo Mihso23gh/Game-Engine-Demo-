@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e53baf8392570e6439e703034433f92a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 357284
+  packageName: Snog's Simple Wave Spawner
+  packageVersion: 1.0
+  assetPath: Assets/Snog/Snog's Simple Wave Spawner/Demo/WaveSystemSettings/EnemyDefinitions/EnemyDefinitionSphere.asset
+  uploadId: 851546

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 51d3555169693ee47883f19462b4c381
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 357284
+  packageName: Snog's Simple Wave Spawner
+  packageVersion: 1.0
+  assetPath: Assets/Snog/Snog's Simple Wave Spawner/Demo/Materials/Enemy.mat
+  uploadId: 851546

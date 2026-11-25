@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ccfc887765dc0fb42a1c3017b77b4fca
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 357284
+  packageName: Snog's Simple Wave Spawner
+  packageVersion: 1.0
+  assetPath: Assets/Snog/Snog's Simple Wave Spawner/Demo/Prefabs/SampleEnemies/EnemyCube.prefab
+  uploadId: 851546

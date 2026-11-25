@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fc71cef3adbff9b45b92e03c99bd9aa2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 357284
+  packageName: Snog's Simple Wave Spawner
+  packageVersion: 1.0
+  assetPath: Assets/Snog/Snog's Simple Wave Spawner/Demo/Prefabs/SampleEnemies/EnemyCyllinderBoss.prefab
+  uploadId: 851546

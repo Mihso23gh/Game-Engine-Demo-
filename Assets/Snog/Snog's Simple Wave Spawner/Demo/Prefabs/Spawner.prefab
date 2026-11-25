@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3988600215890251493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 407659425666077244}
+  - component: {fileID: 2144649901263974019}
+  - component: {fileID: 3126984560990129094}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &407659425666077244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3988600215890251493}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2144649901263974019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3988600215890251493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b36e70fc5f54444196ed63074a6541a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWave: 1
+  waveDefinition: {fileID: 11400000, guid: 4510b7df82fcf2445a5bebffaefec473, type: 2}
+  fallbackEnemies: []
+  spawnMode: 0
+  spawnShape: 0
+  target: {fileID: 0}
+  referenceCamera: {fileID: 0}
+  spawnPoints: []
+  spawnBox:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 10, y: 0, z: 10}
+  ringInnerRadius: 8
+  ringOuterRadius: 12
+  useNavMeshSampling: 0
+  navMeshSampleRadius: 2
+  usePooling: 1
+  pool: {fileID: 3126984560990129094}
+  poolAutoExpand: 1
+  treatInactiveAsDead: 1
+  onWaveStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  onWaveEnded:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnemySpawned:
+    m_PersistentCalls:
+      m_Calls: []
+  onAllEnemiesDefeated:
+    m_PersistentCalls:
+      m_Calls: []
+  spawnedEnemies: []
+--- !u!114 &3126984560990129094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3988600215890251493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5310db620286b499488308dfcaf99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoExpand: 1
+  warmup: []

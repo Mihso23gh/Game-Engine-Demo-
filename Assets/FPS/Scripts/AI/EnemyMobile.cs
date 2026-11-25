@@ -109,21 +109,26 @@ namespace Unity.FPS.AI
                     m_EnemyController.SetNavDestination(m_EnemyController.GetDestinationOnPath());
                     break;
                 case AIState.Follow:
-                    m_EnemyController.SetNavDestination(m_EnemyController.KnownDetectedTarget.transform.position);
+                    //m_EnemyController.SetNavDestination(m_EnemyController.KnownDetectedTarget.transform.position);
+                    m_EnemyController.UpdatePathDestination();
+                    m_EnemyController.SetNavDestination(m_EnemyController.GetDestinationOnPath());
+
                     m_EnemyController.OrientTowards(m_EnemyController.KnownDetectedTarget.transform.position);
                     m_EnemyController.OrientWeaponsTowards(m_EnemyController.KnownDetectedTarget.transform.position);
                     break;
                 case AIState.Attack:
-                    if (Vector3.Distance(m_EnemyController.KnownDetectedTarget.transform.position,
-                            m_EnemyController.DetectionModule.DetectionSourcePoint.position)
-                        >= (AttackStopDistanceRatio * m_EnemyController.DetectionModule.AttackRange))
-                    {
-                        m_EnemyController.SetNavDestination(m_EnemyController.KnownDetectedTarget.transform.position);
-                    }
-                    else
-                    {
-                        m_EnemyController.SetNavDestination(transform.position);
-                    }
+                    m_EnemyController.UpdatePathDestination();
+                    m_EnemyController.SetNavDestination(m_EnemyController.GetDestinationOnPath());
+                    //if (Vector3.Distance(m_EnemyController.KnownDetectedTarget.transform.position,
+                    //        m_EnemyController.DetectionModule.DetectionSourcePoint.position)
+                    //    >= (AttackStopDistanceRatio * m_EnemyController.DetectionModule.AttackRange))
+                    //{
+                    //    m_EnemyController.SetNavDestination(m_EnemyController.KnownDetectedTarget.transform.position);
+                    //}
+                    //else
+                    //{
+                    //    m_EnemyController.SetNavDestination(transform.position);
+                    //}
 
                     m_EnemyController.OrientTowards(m_EnemyController.KnownDetectedTarget.transform.position);
                     m_EnemyController.TryAtack(m_EnemyController.KnownDetectedTarget.transform.position);

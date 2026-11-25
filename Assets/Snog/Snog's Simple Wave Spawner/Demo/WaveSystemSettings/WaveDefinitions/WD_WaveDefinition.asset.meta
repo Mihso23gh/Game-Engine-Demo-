@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4510b7df82fcf2445a5bebffaefec473
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 357284
+  packageName: Snog's Simple Wave Spawner
+  packageVersion: 1.0
+  assetPath: Assets/Snog/Snog's Simple Wave Spawner/Demo/WaveSystemSettings/WaveDefinitions/WD_WaveDefinition.asset
+  uploadId: 851546

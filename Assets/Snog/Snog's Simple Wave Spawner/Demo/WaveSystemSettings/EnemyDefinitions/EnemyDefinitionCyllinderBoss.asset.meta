@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 423ae665713a0a74f8c704653c8506c7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 357284
+  packageName: Snog's Simple Wave Spawner
+  packageVersion: 1.0
+  assetPath: Assets/Snog/Snog's Simple Wave Spawner/Demo/WaveSystemSettings/EnemyDefinitions/EnemyDefinitionCyllinderBoss.asset
+  uploadId: 851546
