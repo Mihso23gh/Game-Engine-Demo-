@@ -37,11 +37,13 @@ namespace Unity.FPS.Game
         {
             EventManager.AddListener<AllObjectivesCompletedEvent>(OnAllObjectivesCompleted);
             EventManager.AddListener<PlayerDeathEvent>(OnPlayerDeath);
+            EventManager.AddListener<DonutReachedEvent>(OnDonutReached);
         }
 
         void Start()
         {
             AudioUtility.SetMasterVolume(1);
+            Time.timeScale = 1f;
         }
 
         void Update()
@@ -64,6 +66,7 @@ namespace Unity.FPS.Game
 
         void OnAllObjectivesCompleted(AllObjectivesCompletedEvent evt) => EndGame(true);
         void OnPlayerDeath(PlayerDeathEvent evt) => EndGame(false);
+        void OnDonutReached(DonutReachedEvent evt) => EndGame(false);
 
         void EndGame(bool win)
         {

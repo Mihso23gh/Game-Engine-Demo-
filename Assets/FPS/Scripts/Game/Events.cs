@@ -11,6 +11,7 @@ namespace Unity.FPS.Game
         public static AllObjectivesCompletedEvent AllObjectivesCompletedEvent = new AllObjectivesCompletedEvent();
         public static GameOverEvent GameOverEvent = new GameOverEvent();
         public static PlayerDeathEvent PlayerDeathEvent = new PlayerDeathEvent();
+        public static DonutReachedEvent DonutReachedEvent = new DonutReachedEvent();
         public static EnemyKillEvent EnemyKillEvent = new EnemyKillEvent();
         public static PickupEvent PickupEvent = new PickupEvent();
         public static AmmoPickupEvent AmmoPickupEvent = new AmmoPickupEvent();
@@ -35,7 +36,7 @@ namespace Unity.FPS.Game
     }
 
     public class PlayerDeathEvent : GameEvent { }
-
+    public class DonutReachedEvent : GameEvent { }
     public class EnemyKillEvent : GameEvent
     {
         public GameObject Enemy;

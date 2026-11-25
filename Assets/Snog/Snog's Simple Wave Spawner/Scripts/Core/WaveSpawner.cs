@@ -40,6 +40,7 @@ namespace Snog.SimpleWaveSystem.Core
         [Min(1)]
         public int currentWave = 1;
 
+        [SerializeField] private int maxWaves = 1;
         [SerializeField] private WaveDefinition waveDefinition;
 
         [Tooltip("Used only if WaveDefinition.allowedEnemies is empty.")]
@@ -166,7 +167,7 @@ namespace Snog.SimpleWaveSystem.Core
                 RaiseAllEnemiesDefeated();
             }
 
-            if (waveTimer <= 0f && spawnQueueEmpty && noneAlive)
+            if (waveTimer <= 0f && spawnQueueEmpty && noneAlive && currentWave < maxWaves)
             {
                 EndWave();
                 currentWave++;

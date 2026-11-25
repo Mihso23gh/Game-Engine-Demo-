@@ -187,7 +187,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  enableBossWaves: 1
+  enableBossWaves: 0
   bossEveryNWaves: 5
   bossEnemy: {fileID: 11400000, guid: 423ae665713a0a74f8c704653c8506c7, type: 2}
   bossConsumesBudget: 0

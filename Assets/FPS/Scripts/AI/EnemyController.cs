@@ -332,6 +332,8 @@ namespace Unity.FPS.AI
 
                     if (m_PathDestinationNodeIndex >= PatrolPath.PathNodes.Count)
                     {
+                        //Lose here
+                        EventManager.Broadcast(Events.DonutReachedEvent);
                         m_PathDestinationNodeIndex -= PatrolPath.PathNodes.Count;
                     }
                 }
