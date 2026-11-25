@@ -332,7 +332,6 @@ namespace Unity.FPS.AI
 
                     if (m_PathDestinationNodeIndex >= PatrolPath.PathNodes.Count)
                     {
-                        GameWinLoseManager.LoseGame();
                         m_PathDestinationNodeIndex -= PatrolPath.PathNodes.Count;
                     }
                 }

@@ -93995,6 +93995,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2144649901263974019, guid: fe588550ddc8ce546865f3d8fae4143d,
         type: 3}
+      propertyPath: usePooling
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2144649901263974019, guid: fe588550ddc8ce546865f3d8fae4143d,
+        type: 3}
       propertyPath: referenceCamera
       value: 
       objectReference: {fileID: 1983827282}
